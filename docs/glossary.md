@@ -1,0 +1,349 @@
+| Technical terms | Definitions |
+|----------------|-------------|
+| Adiabatic quantum computation (AQC) | |
+| Adiabatic theorem | |
+| Benchmarking | |
+| Circuit | A collection of qubits and a list of instructions that act on those qubits. |
+| Circuit building | |
+| Circuit cutting | |
+| Circuit execution | |
+| Circuit instructions | |
+| Circuit knitting | |
+| Circuit library | |
+| CLOPS (Circuit Operation Layers Per Second) | |
+| Circuit-observable pair | The combination of a specific quantum circuit and a target observable. It is the standard unit of work submitted to quantum primitives (like the Qiskit Estimator) to calculate an expectation value (the average measurement).  |
+| Circuits and operators | |
+| Circuit depth | A measure of the number of “layers” of quantum gates, executed in parallel, it takes to complete the computation defined by the circuit. |
+| Classical bit | A binary digit, or bit, in classical computing. |
+| Classical computers | |
+| Classical expression | |
+| Classical feedforward | |
+| Classical input | |
+| Classical logic operation | |
+| Classical operation | |
+| Classical post-processing | |
+| Classical register | |
+| Classical simulation | |
+| Clifford circuit | A quantum circuit composed only of Clifford gates (Hadamard, S, CNOT) and measurements. Clifford circuits can be efficiently simulated classically and are important for quantum error correction and benchmarking. |
+| Cloud environment | |
+| Code assistants | |
+| Coherence | The stability of a quantum system. A coherent qubit can maintain its state as 0, 1, or any superposition. |
+| Coherent noise | Systematic, repeatable errors in quantum operations that accumulate in a predictable way. Unlike random noise, coherent noise can be partially mitigated through techniques like randomized compiling or twirling. |
+| Computational basis | The standard set of basis states that is used to define and measure qubit states. |
+| Computational basis state | One of the standard basis states used to represent qubit states, typically |0⟩ and |1⟩ for a single qubit, or tensor products like |00⟩, |01⟩, |10⟩, |11⟩ for multiple qubits. Measurements are typically performed in the computational basis. |
+| Conditioning | |
+| Configure runtime compilation for Qiskit Runtime | |
+| Context-based restriction | A check that ensures that an access request comes from an allowed context the user configures. |
+| Control electronics | |
+| Control flow objects | |
+| Counterdiabatic | |
+| CPU registers | |
+| Decoherence | The process by which a quantum system loses its quantum properties and collapses into a classical state due to environmental interference. Decoherence is a major source of errors in quantum computing. |
+| Decomposition | |
+| Density matrix | |
+| Device drift | The degradation of hardware performance over time. |
+| Device noise | |
+| Device topology | |
+| Diagonalization | |
+| Dimensionality reduction | |
+| Directed execution model | |
+| Dynamic circuit | A quantum circuit that includes mid-circuit measurements and classical conditional logic. Dynamic circuits allow quantum operations to depend on measurement results obtained during circuit execution, enabling more sophisticated quantum algorithms. |
+| Dynamical decoupling | An error suppression technique that applies sequences of quantum gates to idle qubits to counteract the effects of environmental noise. Dynamic decoupling helps maintain qubit coherence during circuit execution. |
+| Electron configuration | The correlation between qubits in a superposition. Observing one of two entangled qubits tells the observer how the other qubit would act if a similar observation were made on it. The ability of quantum computers to exist in entangled states is responsible for much of their extra computing power. |
+| Electron correlation effect | |
+| Entanglement | |
+| Error codes | |
+| Error correction | |
+| Error mitigation | |
+| Error per layered gate | |
+| Error suppression | |
+| Estimator | A quantum primitive that computes expectation values of observables for given quantum circuits. The Estimator is used for variational algorithms and applications that require measuring physical properties of quantum states. |
+| Execution | |
+| Execution modes | |
+| Executor primitive | |
+| External transpiler plugins | |
+| Fair-share ratio | |
+| Fair-share scheduler | |
+| Fermionic mapper | |
+| Fidelity | A measure of how accurately a quantum operation or state matches its ideal, error-free version. Higher fidelity indicates better performance. Gate fidelity measures the accuracy of quantum gates, while measurement fidelity measures the accuracy of qubit readout. |
+| Fractional gate | A parameterized quantum gate that enables direct execution of arbitrary-angle rotations (within specific bounds), eliminating the need to decompose them into multiple basis gates. |
+| Gate fidelity | |
+| Gate modifier | |
+| Gate operations | |
+| Gate parameter | |
+| Gate time | |
+| Gates | |
+| Gross code | |
+| Hadamard gate | A fundamental single-qubit gate that creates an equal superposition of |0⟩ and |1⟩ states. The Hadamard gate is essential for many quantum algorithms and is often used to initialize qubits in superposition. |
+| Hamiltonian simulation | |
+| Handover Iterative Variational Quantum Eigensolver (HI-VQE) | A hybrid quantum-classical method for accurately estimating the ground state of molecular systems. It integrates quantum hardware with classical computing, using quantum processors to efficiently explore candidate electron configurations and calculating the resulting wave function on classical computers. |
+|  Heavy hex | |
+| Heuristic | |
+| Hidden bitstring | |
+| High-fidelity circuits | |
+| Higher-level abstraction | |
+| Hybrid quantum-classical optimization | |
+| IBM Quantum hardware | |
+| Index | |
+| Input circuit | |
+| Input observables | |
+| Interference | |
+| Instruction fidelity | |
+| Job submission | |
+| Layer fidelity | |
+| L-couplers, m-couplers, and c-couplers | |
+| Lifecycle management | |
+| Local simulators | |
+| Local transpilation | |
+| LU factorization | |
+| M3 (Matrix-free Measurement Mitigation) | |
+| Map domain problems | |
+| Mapping domain problems | |
+| Matrix product state (MPS) | An algorithm that represents many-body quantum states. |
+| MaxCut problem | |
+| Measure qubits | |
+| Measurement fidelity | |
+| Measurement mitigation technique | |
+| Measurement-based post-selection | |
+| Measurement probabilities | |
+| Middleware | |
+| Minimal environment | |
+| Mitigated expectation value | |
+| Mitigation | |
+| Modularity | |
+| Modular software components | |
+| Multi-product formulas | |
+| Multi-qubit gates | |
+| Noise | Unwanted disturbances that cause errors in quantum computations. Noise in quantum systems can arise from environmental interference, imperfect control signals, or hardware imperfections. Managing noise is critical for reliable quantum computing. |
+| Noise amplification factor | A multiplier that indicates how much noise has been intentionally increased in a quantum circuit for error mitigation purposes. For example, replacing a unitary U with U U†U yields a noise amplification factor of 3. |
+| Noise learner | |
+| Noise model | |
+| Noise models | |
+| Noisy quantum computers | |
+| Observable | A physical property or quantum operator that can be measured on a quantum system. In quantum computing, observables are typically represented as Hermitian matrices (often Pauli operators) whose expectation values provide information about the quantum state. |
+| Observables array | |
+| Open Quantum Assembly Language (OpenQASM) | A machine-independent programming interface that provides a text-based representation of quantum operations and measurements. |
+| Open-source package | |
+| Open-source projects | |
+| Operator backpropagation | |
+| Operators | |
+| Optimization | |
+| Optimization mapper | |
+| Orchestrating quantum-classical workloads | |
+| Package versions | |
+| Packaging structure | |
+| Parameters | |
+| Pass library (custom pass managers) | |
+| Pauli noise | |
+| Pauli propagation | |
+| Pauli string | |
+| Pauli twirl | |
+| Pauli twirling | Twirling that uses Pauli operations. |
+| Pauli-Lindblad noise model | |
+| Pauli-twirling | |
+| Paulis | |
+| Performant foundation | |
+| Platform-agnostic quantum runtime framework | |
+| Post-processing | |
+| Post-processing techniques | |
+| Pre-defined circuits | |
+| Preconditioned iterative method | |
+| Preset pass manager | |
+| Preview release status | |
+| Primitive | A fundamental computational pattern for quantum computing that provides a simplified, standardized interface for running quantum computations.. IBM Quantum provides two main primitives: Sampler (for measuring quantum states) and Estimator (for computing expectation values). |
+| Primitives interface | |
+| Primitives queries | |
+| Probabilistic error amplification (PEA) | An error amplification technique that performs preliminary experiments to reconstruct the noise and then uses this information to perform an accurate amplification. PEA provides more accurate noise amplification than simple gate folding methods. |
+| Probabilistic error cancellation (PEC) | An error mitigation technique in which ideal target circuits are represented as linear combinations of noisy circuits. |
+| Program specifications | |
+| Programming Language | |
+| Propagated noise absorption (PNA) | An error mitigation technique that reduces noise effects by incorporating learned noise channel information into observable measurements through Pauli propagation. |
+| Python distribution | |
+| Python versions | |
+| q-sphere | |
+| q-sphere representation | |
+| q-sphere visualization | The representation of the state of a system of one or more qubits by associating each computational basis state with a point on the surface of a sphere. The q-sphere visualization provides an intuitive way to understand quantum states and their evolution. |
+| QPU snapshot | A saved configuration of quantum hardware properties at a specific point in time, including coupling maps, basis gates, and calibration data. QPU snapshots enable reproducible testing and simulation of specific hardware configurations. |
+| QPU time | The actual time spent by the quantum processing unit executing quantum circuits. QPU time is a billable resource and does not include queue time, compilation time, or classical post-processing time. |
+| QASM quantum circuit | A quantum circuit that is defined by using Open Quantum Assembly Language (OpenQASM). |
+| Qiskit Aer noise model | |
+| Qiskit Aer primitive | An implementation of quantum primitives (Sampler and Estimator) that uses classical simulation instead of quantum hardware. Qiskit Aer primitives enable local testing and development of quantum algorithms. |
+| Qiskit addons | |
+| Qiskit pattern | |
+| Qiskit primitive | |
+| Qiskit root | |
+| Quantum advantage | |
+| Quantum algorithm | |
+| Quantum Approximate Optimization Algorithm (QAOA) | A hybrid quantum-classical algorithm that is designed to solve combinatorial optimization problems. QAOA alternates between quantum evolution and classical parameter optimization to find approximate solutions to hard optimization problems. |
+| Quantum bit | A unit of information in quantum computing that can represent a one, a zero, or a combination of the two at once. |
+| Quantum-centric supercomputer | |
+| Quantum channel | |
+| Quantum circuit | A sequence of quantum operations (gates) applied to qubits over time. A quantum circuit defines the algorithm or computation to be performed on a quantum computer, similar to how a musical score defines notes played over time. Or, the set of instructions, or algorithm, applied to a quantum computer. It is a series of gates versus time played on different qubits, much like a musical score. |
+| Quantum computer | A computing device that leverages quantum mechanical phenomena (superposition, entanglement, and interference) to perform computations. Quantum computers use qubits instead of classical bits and can solve certain problems exponentially faster than classical computers. |
+| Quantum computing | A computing model that harnesses the laws of quantum mechanics to process data. Quantum computing uses quantum bits, or qubits, which can represent a one, a zero, or a combination of the two at once in contrast to the binary digits used by classical computing. |
+| Quantum computing simulators | |
+| Quantum computing use cases | |
+| Quantum device | |
+| Quantum gate | A basic quantum operation that manipulates one or more qubits. Quantum gates are the building blocks of quantum circuits, analogous to logic gates in classical computing. Examples include Hadamard gates, CNOT gates, and rotation gates. |
+| Quantum hardware | The physical components and systems that implement quantum computing, including qubits, control electronics, cryogenic systems, and measurement apparatus. Quantum hardware provides the actual quantum processing capabilities. |
+| Quantum hardware benchmarking | |
+| Quantum hardware providers | |
+| Quantum info library | |
+| Quantum information science | |
+| Quantum job | |
+| Quantum jobs | |
+| Quantum operation | |
+| Quantum operator | |
+| Quantum operators | |
+| Quantum optimization | |
+| Quantum processing unit (QPU) | Quantum processing hardware that uses qubits and quantum gates to perform quantum computations. The QPU is the quantum equivalent of a classical CPU, executing quantum circuits on physical qubits. |
+| Quantum programs | |
+| Quantum programming | |
+| Quantum research | |
+| Quantum SDK performance | |
+| Quantum-safe | |
+| Quantum simulators | |
+| Quantum software development workflow | |
+| Quantum state | |
+| Quantum states | |
+| Quantum technology | |
+| Quantum workload creation | |
+| Quantum workflows | |
+| Quasi-probability distribution | |
+| Qubit | A quantum bit; the basic unit of quantum information. Unlike classical bits that can only be 0 or 1, a qubit can exist in a superposition of both states simultaneously. Qubits are the fundamental building blocks of quantum computers. |
+| Qubit register | |
+| Qubit state | The quantum state of a qubit, which can be represented as a point on the Bloch sphere or as a superposition of basis states |0⟩ and |1⟩. The qubit state contains both amplitude and phase information. |
+| Qubit wire | A visual representation line in a quantum circuit diagram that shows the time evolution of a single qubit. Operations on the qubit are depicted as symbols placed on the qubit wire. |
+| Qubits attribute | |
+| Raw data | |
+| Realistic device noise models | |
+| Registers | |
+| Research capabilities | |
+| Responsible quantum computing | |
+| Responsible quantum principles | |
+| Routing | |
+| Runtime environment | |
+| Sample-based algorithms | |
+| Sample-based diagonalization | |
+| Sample-based quantum diagonalization | An operation that combines classical linear algebra and the power of quantum computing to diagonalize a Hamiltonian (matrix) and compute its eigenvalues and eigenvectors. |
+| Sampler | A quantum primitive that executes quantum circuits and returns measurement outcomes (bitstrings). The Sampler is used for applications that need to sample from the probability distribution defined by a quantum circuit. |
+| Samplomatic | |
+| Sampling noise | |
+| Scheduled quantum circuits | |
+| Serverless | |
+| Service | A cloud-based capability or resource provided through IBM Quantum Platform. Services include quantum compute resources, transpilation services, and primitive execution environments. |
+| Shaded lightcones | |
+| Simulated devices | |
+| Simulation | The process of using classical computers to model the behavior of quantum circuits. Quantum simulation allows testing and debugging of quantum algorithms without requiring access to quantum hardware, though it becomes computationally expensive for large numbers of qubits. |
+| Simulation methods | |
+| Simplified Toffoli | |
+| Simplified Toffoli gate | |
+| Single-qubit gate | A quantum gate that operates on a single qubit. Examples include rotation gates (RX, RY, RZ), the Hadamard gate, and Pauli gates (X, Y, Z). |
+| Single-qubit operator | A quantum operator or matrix that acts on a single qubit. Single-qubit operators are represented by 2×2 complex matrices. |
+| Single-shot statevector simulator | |
+| Singularity | |
+| Solvation free energy | |
+| Solvation model | |
+| Solver | An algorithm that solves utility-scale optimization problems on quantum hardware without requiring quantum expertise.  |
+| Specialized addons | |
+| Spending notification | |
+| Spin | |
+| SQD simulation | |
+| Stabilizer circuit | A quantum circuit that consists solely of the following gates: CX, Hadamard, S, or Measurement. |
+| Standard gates | |
+| Static quantum circuits | |
+| Superposition | A fundamental quantum mechanical principle where a qubit exists in multiple states simultaneously until measured. For example, a qubit in superposition can be both 0 and 1 at the same time, with specific probabilities for each state. Or, a non-classical state that a system (for example, a qubit) can occupy when not being measured, consisting of a combination of the states in which it can be found classically. |
+| Suppression | |
+| Synthesis | |
+| Time evolution | The way a quantum system changes over time. |
+| Time-evolution circuit | A circuit that simulates a quantum state evolving in time. Time-evolution circuits are used to investigate physical effects such as heat transfer or phase transitions in a system. |
+| Toffoli gate | A quantum logic gate that extends the functionality of the CNOT gate by having two control qubits and one target qubit. |
+| Topology | |
+| Training data | |
+| Transpilation | |
+| Transpilation code | |
+| Transpilation pipeline | |
+| Transpilation stage | |
+| Transpilation time | |
+| Transpile | To transform a quantum circuit using a transpiler. Transpiling converts abstract quantum circuits into hardware-compatible instructions while optimizing for factors like circuit depth, gate count, and error rates. |
+| Transpiled circuit | A quantum circuit that has been processed by a transpiler and is ready for execution on specific quantum hardware. The transpiled circuit contains only operations supported by the target hardware and accounts for hardware topology and constraints. |
+| Transpiler | A software tool that transforms quantum circuits into equivalent circuits optimized for execution on specific quantum hardware. The transpiler handles tasks such as gate decomposition, qubit routing, and circuit optimization to match hardware constraints and improve performance. |
+| Transpiler pass | A single transformation step in the transpilation pipeline. Each pass performs a specific optimization or transformation task, such as gate synthesis, qubit mapping, or circuit simplification. Multiple passes are combined to create a complete transpilation workflow. |
+| Transpiler plugin | An extension module that adds custom transpilation capabilities to the Qiskit transpiler. Plugins allow users to implement specialized optimization strategies, synthesis methods, or routing algorithms that can be integrated into the transpilation pipeline. |
+| Transpiling circuits | |
+| Twirled noise model | A simplified noise model obtained through twirling, where complex noise channels are converted into simpler, more structured noise (typically Pauli noise). Twirled noise models are easier to characterize and mitigate. |
+| Twirled readout error extinction | |
+| Twirling | A technique for converting arbitrary noise channels into noise channels with more specific structure. |
+| Two-qubit gates | |
+| UGate | |
+| Unitary matrix | |
+| Unitary matrix / operator | |
+| Unitary synthesis method | |
+| Unitary synthesis plugin | |
+| Utility scale | |
+| Utility-scale algorithm discovery | |
+| Utility-scale experiment | |
+| Utility-scale work | |
+| Variational algorithm | An algorithm that adjusts  gate parameters to find states that have certain properties, such as states that represent a good solution to an optimization problem. |
+| Variational Quantum Eigensolver (VQE) | A hybrid quantum-classical algorithm for finding the ground state energy of quantum systems. VQE is widely used in quantum chemistry and materials science applications. |
+| Vector | |
+| Virtual environments | |
+| Virtual qubit | A logical qubit index in an abstract quantum circuit before transpilation. Virtual qubits are mapped to physical qubits on actual quantum hardware during the transpilation process. |
+| Workflow | |
+| Workload scheduling | |
+| Zero noise extrapolation (ZNE) | |
+
+| Product and Service Names | Definitions |
+|---------------------------|-------------|
+| Algorithmiq Tensor-Network Error Mitigation Function | |
+| AQC-Tensor | |
+| Benchpress | |
+| ClassicalRegister | |
+| Flex Plan | |
+| IBM Quantum | |
+| IBM Quantum Accelerator | |
+| IBM Quantum Blue Jay | |
+| IBM Quantum Composer | |
+| IBM Quantum Heron | |
+| IBM Quantum Flamingo | | 
+| IBM Quantum Network | |
+| IBM Quantum Platform | |
+| IBM Quantum Premium Plan | |
+| IBM Quantum Roadmap | |
+| IBM Quantum Starling | | 
+| IBM Quantum System One | |
+| IBM Quantum System Two | |
+| Kipu Quantum Iskay Quantum Optimizer | |
+| miniconda | |
+| mitiqee (M3Lee) | |
+| Multiverse Computing Singularity | |
+| Noisy Estimator Analyzer Tool | |
+| On-Prem (via IBM Quantum Platform API) | |
+| Optimization Mapper | |
+| Paulice | |
+| qBraid SDK (qbraid) | |
+| Q-CTRL Optimization Solver | |
+| Q-CTRL Performance Management Function | |
+| QEDMA QESEM | |
+| Qiskit | |
+| Qiskit Aer (qiskit-aer) | |
+| Qiskit Circuit Library | |
+| Qiskit ecosystem | |
+| Qiskit Functions | |
+| Qiskit Functions Catalog | |
+| Qiskit Runtime | |
+| Qiskit Runtime primitives | |
+| Qiskit SDK | |
+| Qiskit SDK transpiler | |
+| qiskit.circuit | |
+| qiskit.circuit.library | |
+| qiskit.primitives | |
+| qiskit.quantum_info | |
+| qiskit.transpiler | |
+| QuantumCircuit | |
+| QuantumRegister | |
+| Quantum Optimization Best Practices | |
+| Quantum Portfolio Optimizer | |
+| QUICK-PDE | |
+| Qunova Computing HI-VQE Chemistry | |
+
